@@ -7,7 +7,6 @@ title MENU/TOOL FOR AMAZFIT PACE AND STRATOS
 echo. 
 echo. tool created by @ivansinmas
 echo.
-echo tool translated by @Saratoga79
 echo WELCOME %USERNAME% 
 ECHO.
 ECHO type a number to execute one thing or another
@@ -179,13 +178,6 @@ if %ver%==13 cls
 if %ver%==13 msg %USERNAME% menu/tool for amazfit pace by @Ivansinmas
 if %ver%==13 cls
 if %ver%==13 pause
-if %ver%==13 msg %USERNAME% translations by @Saratoga79
-if %ver%==13 cls
-if %ver%==13 pause
-if %ver%==13 msg %USERNAME% if you like my work and you want to thank me, here you are an easy way :P : paypal.me/ivanC500
-if %ver%==13 cls
-if %ver%==13 pause
-
 
 :: PERMITIR INSTALACION DE APPS
 
