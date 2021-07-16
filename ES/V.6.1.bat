@@ -172,12 +172,10 @@ if %ver%==12 cls
 
 if %ver%==13 color C
 if %ver%==13 cls 
-if %ver%==13 msg %USERNAME% menu/herramienta para amazfit pace hecho por @Ivansinmas
+if %ver%==13 msg %USERNAME% menu/herramienta para amazfit pace hecho por gv3.sys
 if %ver%==13 cls
 if %ver%==13 pause
-if %ver%==13 msg %USERNAME% si os gusta este trabajo podeis y quereis agradecer mi ayuda os lo pongo facil :P : paypal.me/ivanC500
-if %ver%==13 cls
-if %ver%==13 pause
+
 
 :: PERMITIR INSTALACION DE APPS
 
