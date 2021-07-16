@@ -1,0 +1,1 @@
+adb shell settings put system screen_brightness XX 
