@@ -16,3 +16,5 @@ I started programing at the age of 12 with some lego robots it was really basic 
 Some time later for that xmas I got my smartwatch, an amazfit pace wich i still use now a days, and thanks to the boost of xda Developers and my previus experiences couding I decided to made that menu so i could automatice the work, and well cuz of school i had to leave that porject and now i publish it hear in case someone is interested on it or want to contiune it 
 
 Update: I migh continu it in a future
+
+And I would like to get some help with the english trasnlations and coding
