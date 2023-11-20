@@ -1,7 +1,7 @@
-echo off 
-:menu 
+@echo off
+:menu
 mode 1000
-cls 
+cls
 color b
 title MENU/HERAMIENTA DE AMAZFIT PACE Y STRATOS
 title MENU/TOOL OF AMAZFIT PACE AND STRATOS 
@@ -9,20 +9,41 @@ echo.
 echo BIENVENIDO %USERNAME% 
 ECHO.
 ECHO put a number to select your idiom
-ECHO pon un numero paea selecionar tu idioma
+ECHO pon un numero para seleccionar tu idioma
 ECHO. ====================================================================================
 ECHO = 1. castellano/spanish
 ECHO = 2. english/ingles
+ECHO = 3. Exit/Salir
 ====================================================================================
 ECHO. 
-SET /P ver= que quieres hacer/what you won to do?..
-::ESPA�OL
+SET /P ver= que quieres hacer/what do you want to do?..
 
-if %ver%==1 "C:\V. 6\ES\V.6.1.bat"
-if %ver%==1 cls
+::ESPAÑOL
+if %ver%==1 (
+    cls
+    echo Lanzando la herramienta en español...
+    start "" "%~dp0V.6\ES\V.6.1.bat"
+    pause
+    cls
+    goto menu
+)
 
 ::INGLES
+if %ver%==2 (
+    cls
+    echo Launching the tool in English...
+    start "" "%~dp0V.6\IN\V.6.1_IN.bat"
+    pause
+    cls
+    goto menu
+)
 
-if %ver%==2 "C:\V. 6\IN\V.6.1_IN.bat"
-if %ver%==2 cls
+::SALIR
+if %ver%==3 (
+    cls
+    echo Saliendo del menú...
+    pause
+    exit
+)
 
+goto menu
